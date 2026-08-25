@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Township Fix-It | Community Reporter</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Township Fix-It</h1>
+    <p>Report broken streetlights, potholes & water leaks in your township</p>
+    <button id="reportBtn">Report a Problem</button>
+  </header>
+  <main>
+    <section id="stats">
+      <div><strong id="totalReports">0</strong> Reports</div>
+      <div><strong id="fixedReports">0</strong> Fixed</div>
+    </section>
+    <section id="reportFormSection" class="hidden">
+      <form id="reportForm">
+        <h2>Submit New Report</h2>
+        <label>Problem Type
+          <select id="type" required>
+            <option value="Streetlight">Broken Streetlight</option>
+            <option value="Pothole">Pothole</option>
+            <option value="Water Leak">Water Leak</option>
+            <option value="Safety">Safety Issue</option>
+          </select>
+        </label>
+        <label>Location
+          <input type="text" id="location" placeholder="e.g. Zone 3, near school" required>
+        </label>
+        <label>Description
+          <textarea id="description" placeholder="How long has it been broken?" required></textarea>
+        </label>
+        <button type="submit">Submit Report</button>
+      </form>
+    </section>
+    <section id="reports">
+      <h2>Community Reports</h2>
+      <div id="reportList"></div>
+    </section>
+  </main>
+  <footer>
+    <p>Built by Benchmark Institute Students</p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
