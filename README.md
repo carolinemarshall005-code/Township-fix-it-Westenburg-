@@ -1,61 +1,19 @@
-# Township Fix-It - Community Reporter
-Polokwane Westenburg Edition
+# Township Fix-It - Westenburg, Polokwane
+### Team: The Executioners - Benchmark Activity 12
 
-## Problem
-In Westenburg, Polokwane, broken streetlights, potholes and water leaks take months to fix because we report on WhatsApp groups and reports get lost.
+**Location:** Westenburg Township, Polokwane, Limpopo
 
-## Solution
-Township Fix-It lets Westenburg residents report problems in 30 seconds with location and issue type. It tracks Total Reports and Fixed issues for our community. Data saves on phone using localStorage, works offline.
+**Team Members:**
+1. Monica Semenya
+2. Grace Mathapo
+3. Caroline Marshall
+4. Theo Lefember
 
-## Features
-- Report form (Location in Westenburg, Issue Type, Description)
-- Community Reports list
-- Stats counter (Total vs Fixed)
-- Mobile responsive
+**Problem:** In Westenburg, Polokwane, community issues like broken streetlights, potholes, and water leaks take YEARS to fix because residents report them on WhatsApp groups where messages get lost and there is no tracking or accountability from municipality.
 
-## Tech
-HTML5, CSS3, JavaScript (Vanilla)
+**Our Solution:** Township Fix-It is a mobile-first web app where any resident can report an issue in 30 seconds with a photo and GPS location. All reports are tracked publicly with status (Reported / In Progress / Fixed) so municipality cannot ignore us.
 
-## Live URL
-https://dreamy-cascaron-cc5bd9.netlify.app
+**Live App:** https://dreamy-cascaron-cc5bd9.netlify.app
+**GitHub:** Township-fix-it-Westenburg-Polokwane-by-the-Executioners
 
-## Team
-The Executioners - Westenburg, Polokwane - Benchmark Institute
-
-## How to Use
-1. Click Report a Problem
-2. Enter your street in Westenburg and issue
-3. Submit and see report in Community Reports
-
-## Testing
-Tested on Chrome Mobile in Westenburg. Form validation works, reports save after refresh.# Township Fix-It - Community Reporter
-Polokwane Westenburg Edition
-
-## Problem
-In Westenburg, Polokwane, broken streetlights, potholes and water leaks take months to fix because we report on WhatsApp groups and reports get lost.
-
-## Solution
-Township Fix-It lets Westenburg residents report problems in 30 seconds with location and issue type. It tracks Total Reports and Fixed issues for our community. Data saves on phone using localStorage, works offline.
-
-## Features
-- Report form (Location in Westenburg, Issue Type, Description)
-- Community Reports list
-- Stats counter (Total vs Fixed)
-- Mobile responsive
-
-## Tech
-HTML5, CSS3, JavaScript (Vanilla)
-
-## Live URL
-https://dreamy-cascaron-cc5bd9.netlify.app
-
-## Team
-The Executioners - Westenburg, Polokwane - Benchmark Institute
-
-## How to Use
-1. Click Report a Problem
-2. Enter your street in Westenburg and issue
-3. Submit and see report in Community Reports
-
-## Testing
-Tested on Chrome Mobile in Westenburg. Form validation works, reports save after refresh.
+**Tech:** HTML, CSS, JavaScript - Built entirely on mobile phone in Westenburg, Polokwane
